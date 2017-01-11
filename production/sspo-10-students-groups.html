@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Показатьport" content="width=device-width, initial-scale=1">
 
-    <title> ССПО | Список объектов для программы реконструкции, постройки и капитального ремонта </title>
+    <title> ССПО | Список груп </title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-Показать">
             <div class="navbar nav_title" style="border: 0;">
-                <a href="sspo-index.html" class="site_title"><i class="fa fa-home"></i> <span>ССПО</span></a>
+                <a href="sspo-index.html" class="site_title"><i class="fa fa-home"></i> <span>ТППК</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -52,12 +52,34 @@
                       <ul class="nav side-menu">
                           <li><a><i class="fa fa-home"></i> Главная <span class="fa fa-chevron-down"></span></a>
                           </li>
-                          <li><a><i class="fa fa-building-o"></i> Объекты <span class="fa fa-chevron-down"></span></a>
+                          <li><a><i class="fa fa-edit"></i> Учащиеся <span class="fa fa-chevron-down"></span></a>
                               <ul class="nav child_menu">
-                                  <li><a href="#">Список объектов</a></li>
+                                  <li><a href="#">Контингент</a></li>
+                                  <li><a href="#">Общежитие</a></li>
+                                  <li><a href="#">Секции и кружки</a></li>
+                                  <li><a href="#"></a></li>
+                                  <li><a href="#">Выпуск</a></li>
                               </ul>
                           </li>
-                          <li><a><i class="fa fa-user"></i> Оснащение объектов <span class="fa fa-chevron-down"></span></a>
+                          <li><a><i class="fa fa-building-o"></i> Об учреждении <span class="fa fa-chevron-down"></span></a>
+                              <ul class="nav child_menu">
+                                  <li><a href="#">Общая информация</a></li>
+                                  <li><a href="#">Здания и корпуса</a></li>
+                                  <li><a href="#">Схемы и расположение</a></li>
+                                  <li><a href="#">Гранты и программы</a></li>
+                                  <li><a href="#">Инвентарь</a></li>
+                              </ul>
+                          </li>
+                          <li><a><i class="fa fa-user"></i> Сотрудники <span class="fa fa-chevron-down"></span></a>
+                              <ul class="nav child_menu">
+                                  <li><a href="#">Преподаватели</a></li>
+                                  <li><a href="#">Библиотека</a></li>
+                                  <li><a href="#">Отдел кадров</a></li>
+                                  <li><a href="#">Бухгалтерский отдел</a></li>
+                                  <li><a href="#">Отдел канцелярии</a></li>
+                                  <li><a href="#">Обслуживающий персонал</a></li>
+                                  <li><a href="#">Охрана</a></li>
+                              </ul>
                           </li>
                           <li><a><i class="fa fa-clone"></i>Настройки <span class="fa fa-chevron-down"></span></a>
                           </li>
@@ -184,10 +206,42 @@
 
         <!-- page content -->
         <div class="right_col" role="main">
+            <div class="row tile_count">
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-user"></i> Всего сотрудников</span>
+                    <div class="count">152</div>
+                    <span class="count_bottom"><i class="green"> +2 </i> за месяц </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-user"></i> Всего учащихся</span>
+                    <div class="count green">2,500</div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>+3% </i> за год </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-star-o"></i> Средняя Оценка </span>
+                    <div class="count"> 4,5 </div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i> +5 </i> за неделю </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-calculator"></i> Инвентарь </span>
+                    <div class="count">4,567</div>
+                    <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i> -30 </i> за месяц </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-thumbs-o-up"></i> Посещения </span>
+                    <div class="count">577</div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>10% </i> за год</span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-line-chart"></i> Прочее </span>
+                    <div class="count">7,325</div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> за год</span>
+                </div>
+            </div>
           <div class="">
             <div class="page-title">
               <div class="title_left">
-                <h3>Список объектов для программы реконструкции, постройки и капитального ремонта</h3>
+                <h3>Список груп учащихся</h3>
               </div>
 
               <div class="title_right">
@@ -208,7 +262,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Учреждения</h2>
+                    <h2> Группы </h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -228,16 +282,16 @@
                   </div>
                   <div class="x_content">
 
-                  <p>Таблица с учреждениями для программы реконструкции, постройки и капитального ремонта</p>
+                  <p>Таблица учащихся</p>
 
                   <!-- start project list -->
                   <table class="table table-striped projects">
                   <thead>
                   <tr>
                       <th style="width: 1%">#</th>
-                      <th style="width: 20%">Название проекта</th>
-                      <th>Администрация</th>
-                      <th>Прогрес</th>
+                      <th style="width: 20%">Название группы</th>
+                      <th>Руководитель</th>
+                      <th></th>
                       <th>Статус</th>
                       <th style="width: 20%">#Действия</th>
                   </tr>
@@ -246,21 +300,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>1 ФН 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "финансы"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -268,12 +313,12 @@
                       </td>
                       <td class="project_progress">
                           <div class="progress progress_sm">
-                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="57"></div>
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="80"></div>
                           </div>
-                          <small>57% Завершено</small>
+                          <small>4.0</small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -284,15 +329,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>3 БУ 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "бухгалтерия"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -300,12 +342,12 @@
                       </td>
                       <td class="project_progress">
                           <div class="progress progress_sm">
-                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="47"></div>
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="80"></div>
                           </div>
-                          <small>47% Завершено</small>
+                          <small>4.0</small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">на занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -316,18 +358,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>5 МКО 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "модельеры"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -335,12 +371,12 @@
                       </td>
                       <td class="project_progress">
                           <div class="progress progress_sm">
-                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="77"></div>
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="90"></div>
                           </div>
-                          <small>77% Завершено</small>
+                          <small>4.5</small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -351,21 +387,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>5 МКО 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "финансы"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -375,10 +402,10 @@
                           <div class="progress progress_sm">
                               <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="60"></div>
                           </div>
-                          <small>60% Завершено</small>
+                          <small>3.0 </small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -389,18 +416,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>5 МКО 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "финансы"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -408,12 +429,12 @@
                       </td>
                       <td class="project_progress">
                           <div class="progress progress_sm">
-                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="12"></div>
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="86"></div>
                           </div>
-                          <small>12% Завершено</small>
+                          <small>4.4 </small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -424,21 +445,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>5 МКО 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "финансы"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -446,12 +458,12 @@
                       </td>
                       <td class="project_progress">
                           <div class="progress progress_sm">
-                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="35"></div>
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="98"></div>
                           </div>
-                          <small>35% Завершено</small>
+                          <small>4.9</small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -462,15 +474,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>5 МКО 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "финансы"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -478,12 +487,12 @@
                       </td>
                       <td class="project_progress">
                           <div class="progress progress_sm">
-                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="87"></div>
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="94"></div>
                           </div>
-                          <small>87% Завершено</small>
+                          <small>4.7 </small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -494,18 +503,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>5 МКО 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "финансы"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -513,12 +516,12 @@
                       </td>
                       <td class="project_progress">
                           <div class="progress progress_sm">
-                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="77"></div>
+                              <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="70"></div>
                           </div>
-                          <small>77% Завершено</small>
+                          <small>3.5 </small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
@@ -529,21 +532,12 @@
                   <tr>
                       <td>#</td>
                       <td>
-                          <a>ТППК</a>
+                          <a>5 МКО 16</a>
                           <br />
-                          <small>основан 01.01.1995</small>
+                          <small>направление "финансы"</small>
                       </td>
                       <td>
                           <ul class="list-inline">
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
-                              <li>
-                                  <img src="images/user.png" class="avatar" alt="Avatar">
-                              </li>
                               <li>
                                   <img src="images/user.png" class="avatar" alt="Avatar">
                               </li>
@@ -553,10 +547,10 @@
                           <div class="progress progress_sm">
                               <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="77"></div>
                           </div>
-                          <small>77% Завершено</small>
+                          <small>3.85 </small>
                       </td>
                       <td>
-                          <button type="button" class="btn btn-success btn-xs">Успешно</button>
+                          <button type="button" class="btn btn-success btn-xs">На занятии</button>
                       </td>
                       <td>
                           <a href="#" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> Показать </a>
