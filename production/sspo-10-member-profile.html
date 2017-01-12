@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ССПО | Сотрудник</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+                <a href="sspo-index.html" class="site_title"><i class="fa fa-home"></i> <span>ТППК</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+              <div class="profile clearfix">
+                  <div class="profile_pic">
+                      <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                  </div>
+                  <div class="profile_info">
+                      <span>Добро Пожаловать,</span>
+                      <h2>Алексей</h2>
+                  </div>
+              </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+              <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                  <div class="menu_section">
+                      <h3>Меню</h3>
+                      <ul class="nav side-menu">
+                          <li><a><i class="fa fa-home"></i> Главная <span class="fa fa-chevron-down"></span></a>
+                          </li>
+                          <li><a><i class="fa fa-edit"></i> Учащиеся <span class="fa fa-chevron-down"></span></a>
+                              <ul class="nav child_menu">
+                                  <li><a href="#">Контингент</a></li>
+                                  <li><a href="#">Общежитие</a></li>
+                                  <li><a href="#">Секции и кружки</a></li>
+                                  <li><a href="#">Успеваемость</a></li>
+                                  <li><a href="#">Выпуск</a></li>
+                              </ul>
+                          </li>
+                          <li><a><i class="fa fa-building-o"></i> Об учреждении <span class="fa fa-chevron-down"></span></a>
+                              <ul class="nav child_menu">
+                                  <li><a href="#">Общая информация</a></li>
+                                  <li><a href="#">Здания и корпуса</a></li>
+                                  <li><a href="#">Схемы и расположение</a></li>
+                                  <li><a href="#">Гранты и программы</a></li>
+                                  <li><a href="#">Инвентарь</a></li>
+                              </ul>
+                          </li>
+                          <li><a><i class="fa fa-user"></i> Сотрудники <span class="fa fa-chevron-down"></span></a>
+                              <ul class="nav child_menu">
+                                  <li><a href="#">Преподаватели</a></li>
+                                  <li><a href="#">Библиотека</a></li>
+                                  <li><a href="#">Отдел кадров</a></li>
+                                  <li><a href="#">Бухгалтерский отдел</a></li>
+                                  <li><a href="#">Отдел канцелярии</a></li>
+                                  <li><a href="#">Обслуживающий персонал</a></li>
+                                  <li><a href="#">Охрана</a></li>
+                              </ul>
+                          </li>
+                          <li><a><i class="fa fa-clone"></i>Настройки <span class="fa fa-chevron-down"></span></a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="">
+                        <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                            <img src="images/img.jpg" alt="">Алексей
+                            <span class=" fa fa-angle-down"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-usermenu pull-right">
+                            <li><a href="javascript:;"> Профиль </a></li>
+                            <li>
+                                <a href="javascript:;">
+                                    <span class="badge bg-red pull-right">!</span>
+                                    <span> Настройки </span>
+                                </a>
+                            </li>
+                            <li><a href="javascript:;"> Помощь </a></li>
+                            <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Выход </a></li>
+                        </ul>
+                    </li>
+
+                    <li role="presentation" class="dropdown">
+                        <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-envelope-o"></i>
+                            <span class="badge bg-green">6</span>
+                        </a>
+                        <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                            <li>
+                                <a>
+                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Светлана И.</span>
+                          <span class="time">3 мин. назад</span>
+                        </span>
+                        <span class="message">
+                          Отчеты по программе готовы
+                        </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Ирина В.</span>
+                          <span class="time">5 мин. назад</span>
+                        </span>
+                        <span class="message">
+                          Нанят новый сотрудник
+                        </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Дмитрий К.</span>
+                          <span class="time">12 мин. назад</span>
+                        </span>
+                        <span class="message">
+                          Собрание переносится на 17:00
+                        </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>Евгений Н.</span>
+                          <span class="time">20 мин. назад</span>
+                        </span>
+                        <span class="message">
+                          с возвращением!
+                        </span>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="text-center">
+                                    <a>
+                                        <strong>Посмотреть все сообщения</strong>
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+            <div class="row tile_count">
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-user"></i> Всего сотрудников</span>
+                    <div class="count">152</div>
+                    <span class="count_bottom"><i class="green"> +2 </i> за месяц </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-user"></i> Всего учащихся</span>
+                    <div class="count green">2,500</div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>+3% </i> за год </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-star-o"></i> Средняя Оценка </span>
+                    <div class="count"> 4,5 </div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i> +5 </i> за неделю </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-calculator"></i> Инвентарь </span>
+                    <div class="count">4,567</div>
+                    <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i> -30 </i> за месяц </span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-thumbs-o-up"></i> Посещения </span>
+                    <div class="count">577</div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>10% </i> за год</span>
+                </div>
+                <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count">
+                    <span class="count_top"><i class="fa fa-line-chart"></i> Прочее </span>
+                    <div class="count">7,325</div>
+                    <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> за год</span>
+                </div>
+            </div>
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Профиль сотрудника</h3>
+              </div>
+
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="искать...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">найти</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Информация о сотруднике <small></small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <div class="col-md-3 col-sm-3 col-xs-12 profile_left">
+                      <div class="profile_img">
+                        <div id="crop-avatar">
+                          <!-- Current avatar -->
+                          <img class="img-responsive avatar-view" src="images/picture.jpg" alt="Avatar" title="Change the avatar">
+                        </div>
+                      </div>
+                      <h3>Анастасия Андреевна</h3>
+
+                      <ul class="list-unstyled user_data">
+                        <li><i class="fa fa-map-marker user-profile-icon"></i> Узбекистан, Ташкент, Мирабадский р-н, 32/57
+                        </li>
+
+                        <li>
+                          <i class="fa fa-briefcase user-profile-icon"></i> Преподаватель танцев
+                        </li>
+
+                        <li class="m-top-xs">
+                          <i class="fa fa-external-link user-profile-icon"></i>
+                          +998 (94) 669-46-54, +998 (71) 232-00-01
+                        </li>
+                      </ul>
+
+                      <a class="btn btn-success"><i class="fa fa-edit m-right-xs"></i>Редактировать</a>
+                      <br />
+
+                      <!-- start skills -->
+                      <h4>Навыки:</h4>
+                      <ul class="list-unstyled user_data">
+                        <li>
+                          <p>Английский</p>
+                          <div class="progress progress_sm">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50"></div>
+                          </div>
+                        </li>
+                        <li>
+                          <p>Танцы</p>
+                          <div class="progress progress_sm">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="70"></div>
+                          </div>
+                        </li>
+                        <li>
+                          <p>Организатор</p>
+                          <div class="progress progress_sm">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="30"></div>
+                          </div>
+                        </li>
+                        <li>
+                          <p>Управление</p>
+                          <div class="progress progress_sm">
+                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50"></div>
+                          </div>
+                        </li>
+                      </ul>
+                      <!-- end of skills -->
+
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+
+                      <div class="profile_title">
+                        <div class="col-md-6">
+                          <h2>Занятость [40 часов]</h2>
+                        </div>
+                        <div class="col-md-6">
+                          <div id="reportrange" class="pull-right" style="margin-top: 5px; background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #E6E9ED">
+                            <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                            <span>Январь 01, 2016 - Октябрь 15, 2016</span> <b class="caret"></b>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- start of user-activity-graph -->
+                      <div id="graph_bar" style="width:100%; height:280px;"></div>
+                      <!-- end of user-activity-graph -->
+
+                      <div class="" role="tabpanel" data-example-id="togglable-tabs">
+                        <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                          <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Краткая Биография</a>
+                          </li>
+                          <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Характеристика</a>
+                          </li>
+                          <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Рекомендации</a>
+                          </li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                          <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                              <ul>
+                                  <li>
+                                      <p><strong>Дата рождения: </strong><small> 24/02/1986</small></p>
+                                  </li>
+                                  <li>
+                                      <p><strong>Место рождения: </strong><small>Узбекистан, Ташкент</small></p>
+                                  </li>
+                                  <li>
+                                      <p><strong>Средняя школа: </strong><small>№284</small></p>
+                                  </li>
+                                  <li>
+                                      <p><strong>Лицей: </strong><small> имени М.В.Лущенко, г.Москва</small></p>
+                                  </li>
+                                  <li>
+                                      <p><strong>Университет: </strong><small>имени М.В.Ломоносова, г.Москва</small></p>
+                                  </li>
+                                  <li>
+                                      <p><strong>Опыт работы: </strong><small>высшая школа гимнастики №1, г.Москва</small></p>
+                                  </li>
+                              </ul>
+
+                          </div>
+                          <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+                              <p>Профессионал!</p>
+                          </div>
+                          <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
+                              <!-- start recent activity -->
+                              <ul class="messages">
+                                  <li>
+                                      <img src="images/img.jpg" class="avatar" alt="Avatar">
+                                      <div class="message_date">
+                                          <h3 class="date text-info">30</h3>
+                                          <p class="month">Декабря</p>
+                                      </div>
+                                      <div class="message_wrapper">
+                                          <h4 class="heading">Эрик Данилович <small>декан университета имени М.В.Ломоносова, г.Москва</small></h4>
+                                          <blockquote class="message">Выдающийся студент!</blockquote>
+                                          <br />
+                                          <p class="url">
+                                              <span class="fs1 text-info" aria-hidden="true" data-icon=""></span>
+                                              <a href="#"><i class="fa fa-paperclip"></i>Результаты сдачи экзаменов.doc </a>
+                                          </p>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <img src="images/img.jpg" class="avatar" alt="Avatar">
+                                      <div class="message_date">
+                                          <h3 class="date text-info">30</h3>
+                                          <p class="month">Декабря</p>
+                                      </div>
+                                      <div class="message_wrapper">
+                                          <h4 class="heading">Эрик Данилович <small>директор высшей школы гимнастики №1, г.Москва</small></h4>
+                                          <blockquote class="message">Мастер своего дела!</blockquote>
+                                          <br />
+                                          <p class="url">
+                                              <span class="fs1 text-info" aria-hidden="true" data-icon=""></span>
+                                              <a href="#"><i class="fa fa-paperclip"></i>Отчет.doc </a>
+                                          </p>
+                                      </div>
+                                  </li>
+
+                                  <li>
+                                      <img src="images/img.jpg" class="avatar" alt="Avatar">
+                                      <div class="message_date">
+                                          <h3 class="date text-info">30</h3>
+                                          <p class="month">Декабря</p>
+                                      </div>
+                                      <div class="message_wrapper">
+                                          <h4 class="heading">Эрик Данилович <small>президент ассоциации развития спорта</small></h4>
+                                          <blockquote class="message">Рекомендую!</blockquote>
+                                          <br />
+                                          <p class="url">
+                                              <span class="fs1 text-info" aria-hidden="true" data-icon=""></span>
+                                              <a href="#"><i class="fa fa-paperclip"></i>отчет.doc </a>
+                                          </p>
+                                      </div>
+                                  </li>
+
+                              </ul>
+                              <!-- end recent activity -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- morris.js -->
+    <script src="../vendors/raphael/raphael.min.js"></script>
+    <script src="../vendors/morris.js/morris.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/min/moment.min.js"></script>
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+    <script>
+      $(function() {
+        Morris.Bar({
+          element: 'graph_bar',
+          data: [
+            { "period": "Jan", "Hours worked": 80 }, 
+            { "period": "Feb", "Hours worked": 125 }, 
+            { "period": "Mar", "Hours worked": 176 }, 
+            { "period": "Apr", "Hours worked": 224 }, 
+            { "period": "May", "Hours worked": 265 }, 
+            { "period": "Jun", "Hours worked": 314 }, 
+            { "period": "Jul", "Hours worked": 347 }, 
+            { "period": "Aug", "Hours worked": 287 }, 
+            { "period": "Sep", "Hours worked": 240 }, 
+            { "period": "Oct", "Hours worked": 211 }
+          ],
+          xkey: 'period',
+          hideHover: 'auto',
+          barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          ykeys: ['Hours worked', 'sorned'],
+          labels: ['Hours worked', 'SORN'],
+          xLabelAngle: 60,
+          resize: true
+        });
+
+        $MENU_TOGGLE.on('click', function() {
+          $(window).resize();
+        });
+      });
+    </script>
+
+    <!-- datepicker -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        var cb = function(start, end, label) {
+          console.log(start.toISOString(), end.toISOString(), label);
+          $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+          //alert("Callback has fired: [" + start.format('MMMM D, YYYY') + " to " + end.format('MMMM D, YYYY') + ", label = " + label + "]");
+        }
+
+        var optionSet1 = {
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment(),
+          minDate: '01/01/2012',
+          maxDate: '12/31/2015',
+          dateLimit: {
+            days: 60
+          },
+          showDropdowns: true,
+          showWeekNumbers: true,
+          timePicker: false,
+          timePickerIncrement: 1,
+          timePicker12Hour: true,
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          opens: 'left',
+          buttonClasses: ['btn btn-default'],
+          applyClass: 'btn-small btn-primary',
+          cancelClass: 'btn-small',
+          format: 'MM/DD/YYYY',
+          separator: ' to ',
+          locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Clear',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+          }
+        };
+        $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+        $('#reportrange').daterangepicker(optionSet1, cb);
+        $('#reportrange').on('show.daterangepicker', function() {
+          console.log("show event fired");
+        });
+        $('#reportrange').on('hide.daterangepicker', function() {
+          console.log("hide event fired");
+        });
+        $('#reportrange').on('apply.daterangepicker', function(ev, picker) {
+          console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
+        });
+        $('#reportrange').on('cancel.daterangepicker', function(ev, picker) {
+          console.log("cancel event fired");
+        });
+        $('#options1').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
+        });
+        $('#options2').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
+        });
+        $('#destroy').click(function() {
+          $('#reportrange').data('daterangepicker').remove();
+        });
+      });
+    </script>
+    <!-- /datepicker -->
+  </body>
+</html>
